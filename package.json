@@ -1,0 +1,20 @@
+{
+  "name": "imageTerrain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run tsc && node build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.10",
+    "canvas": "^2.5.0",
+    "jimp": "^0.6.4",
+    "typescript": "^3.5.2"
+  }
+}
